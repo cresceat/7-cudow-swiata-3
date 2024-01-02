@@ -1,82 +1,70 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
-<title>Ankieta</title>
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="style1.css">
-<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ankieta</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style1.css">
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
-<div class="main">
-<div class="logo">
-<form action="mailto:maksymilian.godlewski@tm1.edu.pl">
-	<div class="bg-img">
-  <div class="container">
-    <div class="topnav">
-      <a href="rapscena.html">Główna</a>
-      <a href="opis.html">Opis</a>
-		<a href="ranking.html">Ranking</a>
-      <a href="galeria.html">Galeria</a>
-      <a href="ankieta.html">Ankieta</a>
+  <div class="main">
+    <div class="logo">
+      <form action="mailto:maksymilian.godlewski@tm1.edu.pl">
+        <div class="bg-img">
+          <div class="container">
+            <div class="topnav">
+              <a href="index.html">Główna</a>
+              <a href="opis.html">Opis</a>
+              <a href="ranking.html">Ranking</a>
+              <a href="galeria.html">Galeria</a>
+              <a href="ankieta.html">Ankieta</a>
+            </div>
+          </div>
+        </div>
+        <div class="h1">Ankieta:</div><br>
     </div>
+    <div class="tresc">
+      <label for="imie">Imię: </label> <input type="text" id="imie" name="imie">
+      <br>
+      <label for="wiek">Wiek: </label> <input type="number" id="wiek" name="wiek">
+      <hr>
+      <h2>Czy słuchasz rapu? Interesujesz się tym typem muzyki?</h2>
+      <input type="radio" name="ny1" id="tak" value="tak"> <label for="tak">Słucham i interesuje się</label><br>
+      <input type="radio" name="ny1" id="taknie" value="taknie"> <label for="taknie">Słucham, lecz nie interesuje się</label><br>
+      <input type="radio" name="ny1" id="nie" value="nie"> <label for="nie">Nie słucham i nie interesuje się</label><br>
+      <input type="radio" name="ny1" id="inna" value="inna"> <label for="inna">Nie wiem</label><br>
+      <hr>
+      <h2>Jaki artysta zapadł ci w pamięci lub zainteresował Cię jego opis?</h2>
+      <input type="radio" name="atrakcja" id="t" value="t"> <label for="t">Yeat</label><br>
+      <input type="radio" name="atrakcja" id="c" value="c"> <label for="c">Travis Scott</label><br>
+      <input type="radio" name="atrakcja" id="w" value="w"> <label for="w">Eminem</label><br>
+      <input type="radio" name="atrakcja" id="e" value="e"> <label for="e">Playboi Carti</label><br>
+      <input type="radio" name="atrakcja" id="b" value="b"> <label for="b">Drake</label><br>
+      <input type="radio" name="atrakcja" id="g" value="g"> <label for="g">Kendrick Lamar</label><br>
+      <input type="radio" name="atrakcja" id="l" value="l"> <label for="l">Lil Uzi Vert</label><br>
+      <hr>
+      <h2>Jakiego artysty słuchasz najczęściej?</h2>
+      <input type="checkbox" name="atrakcja" id="t" value="t"> <label for="t">Yeat</label><br>
+      <input type="checkbox" name="atrakcja" id="c" value="c"> <label for="c">Travis Scott</label><br>
+      <input type="checkbox" name="atrakcja" id="w" value="w"> <label for="w">Eminem</label><br>
+      <input type="checkbox" name="atrakcja" id="e" value="e"> <label for="e">Playboi Carti</label><br>
+      <input type="checkbox" name="atrakcja" id="b" value="b"> <label for="b">Drake</label><br>
+      <input type="checkbox" name="atrakcja" id="g" value="g"> <label for="g">Kendrick Lamar</label><br>
+      <input type="checkbox" name="atrakcja" id="l" value="l"> <label for="l">Lil Uzi Vert</label><br>
+      <hr>
+      <h2>Uwagi:</h2>
+      <label for="tekst"></label>
+      <textarea name="tekst" id="tekst" cols="20" rows="5" maxlength="50">Tekst domyślny</textarea>
+      <hr>
+      <button class="back" onclick="alert('Dziękuję za wykonanie ankiety!')"><span>Kliknij!</span></button>
+      <button class="back" type="reset"><span>Wyczyść dane</span></button>
+      <button class="back" type="submit"><span>Wyślij formularz</span></button>
+    </div>
+    <div class="stopka">Maksymilian Godlewski 2TB</div>
   </div>
-</div>
-<div class="h1">Ankieta:</div><br>
-</div>
-<div class="tresc">
-<label for="imie">Imię: </label> <input type="text" id="imie" name="imie">
-	<br>
-<label for="wiek">Wiek: </label> <input type="number" id="wiek" name="wiek">
-<hr>
-<h2>Czy słuchasz rapu? Interesujesz się tym typem muzyki?</h2>
-<input type="radio" name="ny1" id="tak" value="tak"> <label for="tak">Słucham i interesuje się</label><br>
-
-<input type="radio" name="ny1" id="taknie" value="taknie"> <label for="taknie">Słucham, lecz nie interesuje się</label><br>
-
-<input type="radio" name="ny1" id="nie" value="nie"> <label for="nie">Nie słucham i nie interesuje się</label><br>
-	
-<input type="radio" name="ny1" id="inna" value="inna"> <label for="inna">Nie wiem</label><br>
-<hr>
-<h2>Jaki artysta zapadł ci w pamięci lub zainteresował Cię jego opis?</h2>
-<input type="radio" name="atrakcja" id="t" value="t"> <label for="t">Yeat</label><br>
-
-<input type="radio" name="atrakcja" id="c" value="c"> <label for="c">Travis Scott</label><br>
-
-<input type="radio" name="atrakcja" id="w" value="w"> <label for="w">Eminem</label><br>
-
-<input type="radio" name="atrakcja" id="e" value="e"> <label for="e">Playboi Carti</label><br>
-
-<input type="radio" name="atrakcja" id="b" value="b"> <label for="b">Drake</label><br>
-	
-<input type="radio" name="atrakcja" id="g" value="g"> <label for="g">Kendrick Lamar</label><br>
-
-<input type="radio" name="atrakcja" id="l" value="l"> <label for="l">Lil Uzi Vert</label><br>
-<hr>
-<h2>Jakiego artysty słuchasz najczęściej?</h2>
-<input type="checkbox" name="atrakcja" id="t" value="t"> <label for="t">Yeat</label><br>
-
-<input type="checkbox" name="atrakcja" id="c" value="c"> <label for="c">Travis Scott</label><br>
-
-<input type="checkbox" name="atrakcja" id="w" value="w"> <label for="w">Eminem</label><br>
-
-<input type="checkbox" name="atrakcja" id="e" value="e"> <label for="e">Playboi Carti</label><br>
-
-<input type="checkbox" name="atrakcja" id="b" value="b"> <label for="b">Drake</label><br>
-	
-<input type="checkbox" name="atrakcja" id="g" value="g"> <label for="g">Kendrick Lamar</label><br>
-
-<input type="checkbox" name="atrakcja" id="l" value="l"> <label for="l">Lil Uzi Vert</label><br>
-	<hr>
-<h2>Uwagi:</h2>
-<label for="tekst"></label>
-<textarea name="tekst" id="tekst" cols="20" rows="5" maxlength="50">Tekst domyślny</textarea>
-<hr>
-<button class="back" onclick="alert('Dziękuję za wykonanie ankiety!')"><span>Kliknij!</span></button>
-<button class="back" type="reset"><span>Wyczyść dane</span></button>
-<button class="back" type="submit"><span>Wyślij formularz</span></button>
-</div>
-<div class="stopka">Maksymilian Godlewski 2TB</div>
-	</div>
-</form>
+  </form>
 </body>
+
 </html>

@@ -1,34 +1,179 @@
-@media screen and (max-width: 600px){
-	.link1, .images21, .opisss1 {width: 100%}
-	.main {display: block;}
+@media screen and (max-width: 600px) {
+
+  .link1,
+  .images21,
+  .opisss1 {
+    width: 100%
+  }
+
+  .main {
+    display: block;
+  }
 }
+
 @media screen and (min-width: 600px) {
-	.link1, .images21, .opisss1 {width: 100%}
-	.main {display: block;}
+
+  .link1,
+  .images21,
+  .opisss1 {
+    width: 100%
+  }
+
+  .main {
+    display: block;
+  }
 }
+
 @media screen and (max-width: 1200px) {
-	.link1, .images21, .opisss1 {width: 100%}
-	.main {display: block;}
-}
-@media screen and (min-width: 1200px) {
-	
+
+  .link1,
+  .images21,
+  .opisss1 {
+    width: 100%
+  }
+
+  .main {
+    display: block;
+  }
 }
 
-table {border: 2px solid black;border-radius: 5px;  width:200px; height: 100px;}
-td {border: 2px solid black;}
-h2 {text-align: center;}
-div.main {height: 1200px;margin: auto; text-align: center;}
-div.h1 {font-size: 2vw;color: #333;text-transform: uppercase;letter-spacing: 6px;margin: 0;padding: 20px 0;background-color:#C4ADAE;}
-div.q {font-size: 20px;color: #333;text-transform: capitalize;letter-spacing: 1px;margin: 0;padding: 10px 0;background-color:#C4ADAE;}
-div.logo {text-align: center; width: 100%; height: 20%;font-size:2vw;}
-div.stopka {text-align:center; width: 100%; height: 5%; font-size: 2vw; color: #333;text-transform: uppercase;letter-spacing: 6px;margin: 0;padding: 20px 0;background-color:#C4ADAE; clear: both;}
-div.link {text-align:center; width: 100%; height: 5%; background-color:#DD8F38; font-size:2vw;}
-div.opisss {width: 70%; height: 70%; background-color: bisque; float: left;}
-div.images2 {width: 30%; height: 70%; background-color: darkolivegreen; float: right;}
+@media screen and (min-width: 1200px) {}
 
-div.link1 {text-align:center; width: 15%; height: 85%; background-color:#DD8F38; float: right; font-size: 40px;}
-div.opisss1 {width: 50%; height: 85%; background-color: bisque; float: right;}
-div.images21 {width: 35%; height: 85%; background-color: darkolivegreen; float: left;}
+table {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 200px;
+  height: 100px;
+}
+
+td {
+  border: 2px solid black;
+}
+
+h2 {
+  text-align: center;
+}
+
+.main {
+  height: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.h1 {
+  font-size: 2vw;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin: 0;
+  padding: 20px 0;
+  background-color: #C4ADAE;
+}
+
+.q {
+  font-size: 20px;
+  color: #333;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 10px 0;
+  background-color: #C4ADAE;
+}
+
+.logo {
+  text-align: center;
+  width: 100%;
+  height: 20%;
+  font-size: 2vw;
+}
+
+.stopka {
+  text-align: center;
+  width: 100%;
+  height: 5%;
+  font-size: 2vw;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin: 0;
+  padding: 20px 0;
+  background-color: #C4ADAE;
+  clear: both;
+}
+
+.link {
+  text-align: center;
+  width: 100%;
+  height: 5%;
+  background-color: #DD8F38;
+  font-size: 2vw;
+}
+
+.opisss {
+  width: 70%;
+  height: 70%;
+  background-color: bisque;
+  float: left;
+}
+
+.opisss iframe {
+  height: auto;
+  border: none;
+  aspect-ratio: 16/9;
+}
+
+@media (max-width: 600px) {
+  .opisss {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .opisss iframe {
+    width: 100%;
+  }
+  .images2 {
+    clear: both;
+    float: none;
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
+@media (min-width: 600px) {
+  .opisss iframe {
+    width: 100%;
+  }
+}
+
+.images2 {
+  width: 30%;
+  height: 70%;
+  background-color: darkolivegreen;
+  float: right;
+}
+
+.link1 {
+  text-align: center;
+  width: 15%;
+  height: 85%;
+  background-color: #DD8F38;
+  float: right;
+  font-size: 40px;
+}
+
+.opisss1 {
+  width: 50%;
+  height: 85%;
+  background-color: bisque;
+  float: right;
+}
+
+.images21 {
+  width: 35%;
+  height: 85%;
+  background-color: darkolivegreen;
+  float: left;
+}
+
 .back {
   border-radius: 4px;
   background-color: #C4ADAE;
@@ -81,7 +226,9 @@ div.images21 {width: 35%; height: 85%; background-color: darkolivegreen; float: 
   box-shadow: 0 9px #999;
 }
 
-.nextb:hover {background-color: #C4ADAE}
+.nextb:hover {
+  background-color: #C4ADAE
+}
 
 .nextb:active {
   background-color: #C4ADAE;
@@ -89,7 +236,14 @@ div.images21 {width: 35%; height: 85%; background-color: darkolivegreen; float: 
   transform: translateY(4px);
 }
 
-body {background-image: url("multimedia/rap3.png"); background-size: cover; margin:0; font-family: "Trebuchet MS"; width: 100%;}
+body {
+  background-image: url("multimedia/rap3.png");
+  background-repeat: repeat;
+  background-size: auto 200px;
+  margin: 0;
+  font-family: "Trebuchet MS";
+  width: 100%;
+}
 
 
 .accordion {
@@ -105,8 +259,9 @@ body {background-image: url("multimedia/rap3.png"); background-size: cover; marg
   transition: 0.4s;
 }
 
-.active, .accordion:hover {
-  background-color: WHITE; 
+.active,
+.accordion:hover {
+  background-color: WHITE;
 }
 
 .panel {
@@ -118,32 +273,38 @@ body {background-image: url("multimedia/rap3.png"); background-size: cover; marg
 
 
 
-* {box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
 
 .bg-img {
-	min-height: 100px;
+  min-height: 100px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
+
 .container {
   position: absolute;
   margin: 20px;
   width: auto;
 }
+
 .topnav {
   overflow: hidden;
   background-color: #C4ADAE;
 }
+
 .topnav a {
   float: left;
   color: black;
   text-align: center;
   padding: 14px 16px;
-  text-decoration:inherit;
+  text-decoration: inherit;
   font-size: 20px;
 }
+
 .topnav a:hover {
   background-color: #ddd;
   color: black;
@@ -151,13 +312,20 @@ body {background-image: url("multimedia/rap3.png"); background-size: cover; marg
 
 
 
-.mySlides {display: none}
-img {vertical-align: middle;}
+.mySlides {
+  display: none
+}
+
+img {
+  vertical-align: middle;
+}
+
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
+
 .next {
   cursor: pointer;
   position: absolute;
@@ -171,12 +339,14 @@ img {vertical-align: middle;}
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-	right: 0;
+  right: 0;
   border-radius: 3px 0 0 3px;
 }
+
 .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
+
 .numbertext {
   color: white;
   font-size: 20px;
@@ -184,6 +354,7 @@ img {vertical-align: middle;}
   position: absolute;
   top: 0;
 }
+
 .dot {
   cursor: pointer;
   height: 15px;
@@ -193,49 +364,88 @@ img {vertical-align: middle;}
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-	}
-.active, .dot:hover {
+}
+
+.active,
+.dot:hover {
   background-color: #717171;
 }
+
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-.anim2 {
-      width: 100%;
-      height: 100px;
-      background: #724608;
-      box-shadow: 5px 5px 10px black;
-      border: 3px dotted black;
-		text-align: center;
-	font-size: 2vw;
-	text-transform: capitalize;
-	letter-spacing: 1px;
-	margin: 2;
-	padding: 10px 0;
-	justify-content: center; 
-	align-items: center;
-      animation: animacja2 2s ease-in-out infinite alternate;
-    }
-@keyframes animacja2 {
-		 0% {background: #144A04; box-shadow: 5px 5px 10px white; border: 3px dotted black;}
-		 50% {background:#B1773D; box-shadow: 8px 8px 15px black;}
-		 100% {background: #7A4400 ; border: 3px solid brown;}
-		}
-.anim3 {
-      background-color: yellow;
-      animation: animacja3 6s linear infinite;
-    }
+  from {
+    opacity: .4
+  }
 
-    @keyframes animacja3 {
-      0% {transform: rotate(0deg); background: yellow;}
-      50% {transform: rotate(180deg); background: #CC2A2D;}
-		100% {transform: rotate(360deg); background:#C214E1;}}
+  to {
+    opacity: 1
+  }
+}
+
+@media only screen and (max-width: 300px) {
+
+  .prev,
+  .next,
+  .text {
+    font-size: 11px
+  }
+}
+
+.anim2 {
+  width: 100%;
+  height: 100px;
+  background: #724608;
+  box-shadow: 5px 5px 10px black;
+  border: 3px dotted black;
+  text-align: center;
+  font-size: 2vh;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  margin: 2px;
+  padding: 10px 0;
+  animation: animacja2 2s ease-in-out infinite alternate;
+}
+
+@keyframes animacja2 {
+  0% {
+    background: #144A04;
+    box-shadow: 5px 5px 10px white;
+    border: 3px dotted black;
+  }
+
+  50% {
+    background: #B1773D;
+    box-shadow: 8px 8px 15px black;
+  }
+
+  100% {
+    background: #7A4400;
+    border: 3px solid brown;
+  }
+}
+
+.anim3 {
+  background-color: yellow;
+  animation: animacja3 6s linear infinite;
+}
+
+@keyframes animacja3 {
+  0% {
+    transform: rotate(0deg);
+    background: yellow;
+  }
+
+  50% {
+    transform: rotate(180deg);
+    background: #CC2A2D;
+  }
+
+  100% {
+    transform: rotate(360deg);
+    background: #C214E1;
+  }
+}
