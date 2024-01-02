@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style1.css">
+<title>Galeria</title>
+</head>
+<body>
+<div class="main">
+<div class="logo">
+<div class="bg-img">
+  <div class="container">
+    <div class="topnav">
+      <a href="rapscena.html">Główna</a>
+      <a href="opis.html">Opis</a>
+		<a href="ranking.html">Ranking</a>
+      <a href="galeria.html">Galeria</a>
+      <a href="ankieta.html">Ankieta</a>
+    </div>
+  </div>
+</div>
+<div class="h1">Galeria</div>
+	</div>
+<div class="tresc">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="multimedia/rap1.jpg" style="width:100%">
+</div>
+	
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="multimedia/rap4.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="multimedia/rap5.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="multimedia/rap6.jpeg" style="width:100%">
+</div>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+	<span class="dot" onclick="currentSlide(4)"></span>
+</div>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+	</div>
+	<div class="stopka">Maksymilian Godlewski 2TB</div>
+</div>
+</body>
+</html> 
