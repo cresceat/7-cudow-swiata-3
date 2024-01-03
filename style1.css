@@ -429,23 +429,23 @@ img {
 }
 
 .anim3 {
-  background-color: yellow;
+  background-color: none;
   animation: animacja3 6s linear infinite;
 }
 
 @keyframes animacja3 {
   0% {
     transform: rotate(0deg);
-    background: yellow;
+    box-shadow: 0 0 10px #000;
   }
 
   50% {
     transform: rotate(180deg);
-    background: #CC2A2D;
+    box-shadow: 0 0 20px #00f;
   }
 
   100% {
     transform: rotate(360deg);
-    background: #C214E1;
+    box-shadow: 0 0 10px #f00;
   }
 }
