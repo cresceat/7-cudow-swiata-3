@@ -451,12 +451,12 @@ img {
 a{
 	color: brown;
 	text-decoration: none;
-	box-shadow: 2px 2px 2px white;
+	box-shadow: 2px 2px 2px 2px white;
 }
 
 a:hover{
 	color: green;
-	box-shadow: 2px 2px 2px black;
+	box-shadow: 2px 2px 2px 2px black;
 }
 
 a:visited{
