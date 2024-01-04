@@ -412,7 +412,7 @@ img {
 
 @keyframes animacja2 {
   0% {
-    background: #144A04;
+    background: #A6885D;
     box-shadow: 5px 5px 10px white;
     border: 3px dotted black;
   }
@@ -448,4 +448,18 @@ img {
     transform: rotate(360deg);
     box-shadow: 0 0 10px #f00;
   }
+}
+a{
+	color: brown;
+	text-decoration: none;
+	box-shadow: 2px 2px 2px white;
+}
+
+a:hover{
+	color: green;
+	box-shadow: 2px 2px 2px black;
+}
+
+a:visited{
+	color: yellow;
 }
