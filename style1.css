@@ -1,3 +1,7 @@
+p {
+	background-color:#faf7e5;
+	color: black;
+}
 @media screen and (max-width: 600px) {
 
   .link1,
